@@ -2,8 +2,8 @@
 An F# web redirector.
 
 ### Requirements
-* `nuget`
-* `fsi.exe` / `fsharpi`
+* `nuget` (download from [nuget.org](http://www.nuget.org/))
+* `fsi.exe` / `fsharpi` (see 'use' section at [fsharp.org](http://fsharp.org/))
 
 ### Preparing
 Pull required packages from NuGet
