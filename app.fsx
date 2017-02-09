@@ -1,4 +1,4 @@
-#r @"Suave\lib\net40\Suave.dll" 
+#r @"Suave/lib/net40/Suave.dll" 
 
 open Suave
 open Suave.Operators
@@ -12,7 +12,7 @@ let app =
 
 let config = 
     { defaultConfig with
-       bindings = [ HttpBinding.mkSimple HTTP "0.0.0.0" 80 ]
+       bindings = [ HttpBinding.createSimple HTTP "0.0.0.0" 80 ]
     }
 
 startWebServer config app
